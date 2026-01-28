@@ -10,7 +10,7 @@ Incluye Google Auth, QR generator, QR scanner web y dashboard realtime (postgres
 4. En **Authentication → Providers**, habilita **Google**.
 5. Agrega tus dominios de redirect:
    - Local: `http://localhost:5173`
-   - Producción: tu URL de Vercel/Netlify
+   - Producción: URL de Vercel/Netlify
 6. En **Table Editor → operator_allowlist**, inserta los emails de operadores.
 
 ## 2) Variables de entorno

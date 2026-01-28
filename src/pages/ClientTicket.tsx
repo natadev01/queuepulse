@@ -110,6 +110,9 @@ const ClientTicket = () => {
               </div>
             </div>
           )}
+          <p className="mt-4 text-xs text-slate-400">
+            Note: demo limits each user to 50 tickets per day.
+          </p>
         </section>
 
         <section className="flex flex-col items-center gap-4 rounded-3xl bg-white/80 p-6 shadow-lg backdrop-blur">
