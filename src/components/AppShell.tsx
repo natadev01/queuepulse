@@ -13,7 +13,7 @@ const AppShell = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <header className="px-6 py-5">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-start justify-between gap-4 rounded-3xl bg-white/80 px-5 py-4 shadow-lg backdrop-blur sm:flex-row sm:items-center">
           <div>
@@ -56,10 +56,10 @@ const AppShell = ({ children }: { children: React.ReactNode }) => {
           </div>
         </div>
       </header>
-      <main className="px-6 pb-10">
+      <main className="px-6 pb-10 flex-1">
         <div className="mx-auto w-full max-w-6xl">{children}</div>
       </main>
-      <footer className="px-6 pb-8">
+      <footer className="px-6 pb-8 lg:mt-auto">
         <div className="mx-auto w-full max-w-6xl text-center text-xs text-slate-400">
           Developed by Natalia Polanco
         </div>
